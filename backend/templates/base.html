@@ -1,0 +1,13 @@
+<!-- base.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Application</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+  <!-- Content of your template -->
+  {% block content %}{% endblock %}
+</body>
+</html>
